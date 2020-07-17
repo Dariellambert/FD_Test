@@ -32,6 +32,12 @@
   </head>
   <body>
 
+  <div class = "col-md-4 offset-md-8" id = "menu">
+      <button type="button" class="btn"><i class="fa fa-phone"></i> <small>0274-5305505</small></button>
+      <button type="button" class="btn"><i class="fa fa-comments-o"></i><small>Live Chat</small></button>
+      <button type="button" class="btn"><i class="fa fa-user-circle"></i><small>Member Area</small></button>
+  </div>
+
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
   <h5 class="my-0 mr-md-auto font-weight-normal"> <img src="{{ asset('assets/images/logo.png') }}"> </h5>
   <nav class="my-2 my-md-0 mr-md-3">
@@ -142,8 +148,8 @@
     <div class="card mb-4 border-primary shadow-sm">
       <div class="card-header bg-primary text-white">
       <div class = "shadow-sm " id = "best"> <p><b>Best Seller</b></p></div>
-       <div> <h4 class=font-weight-normal" id = "personal"><b>Personal</b></h4><br></div>
-      <p style = "top: -100pt;"><strike>Rp {{ $price[2]->harga }} </strike></p>
+       <div> <h4 class="font-weight-normal" id = "personal"><b>Personal</b></h4><br></div>
+      <p style = "top: -1pt; position: relative"><strike>Rp {{ $price[2]->harga }} </strike></p>
         <h1 class="card-title pricing-card-title">Rp {{ $price[2]->diskon }}<small>/ bln</small></h1>
         <div> <b>10.017</b> Pengguna Terdaftar</div>
         </div>
@@ -295,78 +301,78 @@
     <div class="row">
       <div class="col">
       <ul class="list-unstyled text-small">
-          <li class = "text-muted">IcePHP</a></li>
-          <li class = "text-muted">apc</a></li>
-          <li class = "text-muted">apcu</a></li>
-          <li class = "text-muted">apm</a></li>
-          <li class = "text-muted">ares</a></li>
-          <li class = "text-muted">bcmath</a></li>
-          <li class = "text-muted">bcompiler</a></li>
-          <li class = "text-muted">big_int</a></li>
-          <li class = "text-muted"></a>bitset</li>
-          <li class = "text-muted"></a>bloomy</li>
-          <li class = "text-muted"></a>bz2_filter</li>
-          <li class = "text-muted"></a>clamav</li>
-          <li class = "text-muted"></a>coin acceptor</li>
-          <li class = "text-muted"></a>crack</li>
-          <li class = "text-muted"></a>dba</li>
+          <li class = "text-muted">IcePHP</li>
+          <li class = "text-muted">apc</li>
+          <li class = "text-muted">apcu</li>
+          <li class = "text-muted">apm</li>
+          <li class = "text-muted">ares</li>
+          <li class = "text-muted">bcmath</li>
+          <li class = "text-muted">bcompiler</li>
+          <li class = "text-muted">big_int</li>
+          <li class = "text-muted">bitset</li>
+          <li class = "text-muted">bloomy</li>
+          <li class = "text-muted">bz2_filter</li>
+          <li class = "text-muted">clamav</li>
+          <li class = "text-muted">coin acceptor</li>
+          <li class = "text-muted">crack</li>
+          <li class = "text-muted">dba</li>
         </ul>
       </div>
       <div class="col">
         <ul class="list-unstyled text-small">
-          <li class = "text-muted">http</a></li>
-          <li class = "text-muted">huffman</a></li>
-          <li class = "text-muted">idn</a></li>
-          <li class = "text-muted">igbinary</a></li>
-          <li class = "text-muted">imagick</a></li>
-          <li class = "text-muted">imap</a></li>
-          <li class = "text-muted"></a>included</li>
-          <li class = "text-muted">inotify</a></li>
-          <li class = "text-muted"></a>interbase</li>
-          <li class = "text-muted"></a>intl</li>
-          <li class = "text-muted"></a>ioncube_loader</li>
-          <li class = "text-muted"></a>ioncube_loader_4</li>
-          <li class = "text-muted"></a>jsmin</li>
-          <li class = "text-muted"></a>json</li>
-          <li class = "text-muted"></a>ldap</li>
+          <li class = "text-muted">http</li>
+          <li class = "text-muted">huffman</li>
+          <li class = "text-muted">idn</li>
+          <li class = "text-muted">igbinary</li>
+          <li class = "text-muted">imagick</li>
+          <li class = "text-muted">imap</li>
+          <li class = "text-muted">included</li>
+          <li class = "text-muted">inotify</li>
+          <li class = "text-muted">interbase</li>
+          <li class = "text-muted">intl</li>
+          <li class = "text-muted">ioncube_loader</li>
+          <li class = "text-muted">ioncube_loader_4</li>
+          <li class = "text-muted">jsmin</li>
+          <li class = "text-muted">json</li>
+          <li class = "text-muted">ldap</li>
         </ul>
       </div>
       <div class="col">
         <ul class="list-unstyled text-small">
-          <li class = "text-muted">nd_pdo_mysql</a></li>
-          <li class = "text-muted">oauth</a></li>
-          <li class = "text-muted">oci8</a></li>
-          <li class = "text-muted">odbc</a></li>
-          <li class = "text-muted">opcache</a></li>
-          <li class = "text-muted"></a>pdf</li>
-          <li class = "text-muted"></a>pdo</li>
-          <li class = "text-muted"></a>pdo_dblib</li>
-          <li class = "text-muted"></a>pdo_firebird</li>
-          <li class = "text-muted"></a>pdo_mysql</li>
-          <li class = "text-muted"></a>pdo_odbc</li>
-          <li class = "text-muted"></a>pdo_pdsql</li>
-          <li class = "text-muted"></a>pdo_sqlite</li>
-          <li class = "text-muted"></a>pgsql</li>
-          <li class = "text-muted"></a>phalcon</li>
+          <li class = "text-muted">nd_pdo_mysql</li>
+          <li class = "text-muted">oauth</li>
+          <li class = "text-muted">oci8</li>
+          <li class = "text-muted">odbc</li>
+          <li class = "text-muted">opcache</li>
+          <li class = "text-muted">pdf</li>
+          <li class = "text-muted">pdo</li>
+          <li class = "text-muted">pdo_dblib</li>
+          <li class = "text-muted">pdo_firebird</li>
+          <li class = "text-muted">pdo_mysql</li>
+          <li class = "text-muted">pdo_odbc</li>
+          <li class = "text-muted">pdo_pdsql</li>
+          <li class = "text-muted">pdo_sqlite</li>
+          <li class = "text-muted">pgsql</li>
+          <li class = "text-muted">phalcon</li>
         </ul>
       </div>
       <div class="col">
         <ul class="list-unstyled text-small">
-          <li class = "text-muted">stats</a></li>
-          <li class = "text-muted">stem</a></li>
-          <li class = "text-muted">stomp</a></li>
-          <li class = "text-muted">suhosin</a></li>
-          <li class = "text-muted"></a>sybase_ct</li>
-          <li class = "text-muted"></a>sysvmsg</li>
-          <li class = "text-muted"></a>sysvsem</li>
-          <li class = "text-muted"></a>sysvshm</li>
-          <li class = "text-muted"></a>tidy</li>
-          <li class = "text-muted"></a>timezonedb</li>
-          <li class = "text-muted"></a>trader</li>
-          <li class = "text-muted"></a>translit</li>
-          <li class = "text-muted">uploadprogress</a></li>
-          <li class = "text-muted"></a>uri_template</li>
-          <li class = "text-muted"></a>uuid</li>
+          <li class = "text-muted">stats</li>
+          <li class = "text-muted">stem</li>
+          <li class = "text-muted">stomp</li>
+          <li class = "text-muted">suhosin</li>
+          <li class = "text-muted">sybase_ct</li>
+          <li class = "text-muted">sysvmsg</li>
+          <li class = "text-muted">sysvsem</li>
+          <li class = "text-muted">sysvshm</li>
+          <li class = "text-muted">tidy</li>
+          <li class = "text-muted">timezonedb</li>
+          <li class = "text-muted">trader</li>
+          <li class = "text-muted">translit</li>
+          <li class = "text-muted">uploadprogress</li>
+          <li class = "text-muted">uri_template</li>
+          <li class = "text-muted">uuid</li>
         </ul>
       </div>
     </div>
@@ -472,7 +478,7 @@
           <li><a  href="#">Review Pelanggan</a></li>
         </ul>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-2">
       <section id = "newsletter">
         <h5 class="text-muted">NEWSLETTER</h5>
         <div class="row left-content-center">
@@ -485,13 +491,13 @@
        </div>
       </div>
       </section>
-      <div class="col-md-2 left-content-center" id = "follow">
+      <div class="col-md-2 offset-md-1 left-content-center" id = "follow">
       <button type="button" class="btn btn-fb" style = "color:  white"><i class="fa fa-facebook-square"></i></button>
       <button type="button" class="btn btn-tw" style = "color:  white"><i class="fa fa-twitter-square"></i></button>
       <button type="button" class="btn btn-gplus" style = "color:  white"><i class="fa fa-google-plus-square"></i></button>
       </div>
       <div class = "col-md-11 offset-md-1">
-      <h5 class="text-muted">PEMBAYARAN</h5>
+      <h5 class="text-muted" style = "margin-top: 25pt; position: relative;">PEMBAYARAN</h5>
     </div>
     <div class = "col-md-11 offset-md-1 " id = "payment">
     <img src = "{{ asset('assets/svg/bca.svg') }}">
@@ -511,18 +517,5 @@
     <small class = "text-muted "> <a href = '#'>syarat dan ketentuan</a> | <a href> kebijakan privasi<a> </small>
     </div>
   </footer>
-</body>
-</html>
-<script>
-var value = document.getElementById("thePrice").innerHTML;
-
-window.onload = function() {
-  nfObject = new Intl.NumberFormat('en-US')
-  output = nfObject.format(value)
-  var value = document.getElementById("thePrice").value = output;
-       
-} 
-
-</script>
 </body>
 </html>
